@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-marqo" %}
-{% set version = "0.40.2" %}
+{% set version = "0.40.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_marqo-{{ version }}.tar.gz
-  sha256: 92d5487a525c964e710128c9036a50aef13079c1296a73e527062036f43bec3f
+  sha256: c7bef0389f80f2bf4dd3c4d57404d396b40aeb3d667265035b2874ab62c4aef3
 
 build:
   noarch: python
