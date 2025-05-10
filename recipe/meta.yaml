@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-marqo" %}
-{% set version = "0.40.3" %}
+{% set version = "0.40.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_marqo-{{ version }}.tar.gz
-  sha256: c7bef0389f80f2bf4dd3c4d57404d396b40aeb3d667265035b2874ab62c4aef3
+  sha256: 3df48b240280038ac05d4eeabe29da18241fa3793c7d428d44e94766af642cf1
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - opentelemetry-api >=1.28.0,<2.0.0
     - opentelemetry-semantic-conventions >=0.50b0
     - opentelemetry-instrumentation >=0.50b0
-    - opentelemetry-semantic-conventions-ai 0.4.5
+    - opentelemetry-semantic-conventions-ai 0.4.8
   run_constrained:
     - marqo >=3.5.1,<4.0.0
 
