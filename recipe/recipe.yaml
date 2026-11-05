@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-marqo
-  version: "0.62.4"
+  version: "0.63.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_marqo-${{ version }}.tar.gz
-  sha256: 56e6b007a08be1b696fb7c98c34034483c7c620a04d5f55c62f4667ff20c4e23
+  sha256: 150c720b7c3924275b60342b404032f077b7fa122119017df92f35f38c3c01c1
 
 build:
   number: 0
